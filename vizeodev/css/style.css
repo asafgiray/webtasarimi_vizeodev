@@ -1,0 +1,118 @@
+body {
+  background-color: #F7F7F7;
+}
+body main .register-container {
+  padding: 50px 50px;
+}
+body main .register-container h1 {
+  font-weight: 700;
+  color: #6E54B0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+body main .register-container .social-media {
+  display: block;
+  width: 165px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+body main .register-container .social-media .fa {
+  border: 1px solid #cfcfcf;
+  padding: 20px;
+  line-height: 4px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  font-size: 25px;
+  border-radius: 100px;
+}
+body main .register-container .social-media .fa-instagram {
+  color: #E1306C;
+  transition: 0.5s;
+}
+body main .register-container .social-media .fa-instagram:hover {
+  background-color: #E1306C;
+  color: #fff;
+  transition: 0.5s;
+}
+body main .register-container .social-media .fa-instagram:before {
+  margin-left: -10px !important;
+}
+body main .register-container .social-media .fa-facebook {
+  color: #4267B2;
+  transition: 0.5s;
+}
+body main .register-container .social-media .fa-facebook:hover {
+  background-color: #4267B2;
+  color: #fff;
+  transition: 0.5s;
+}
+body main .register-container .social-media .fa-facebook:before {
+  margin-left: -6px;
+}
+body main .register-container .social-media .fa-google {
+  color: #DB4437;
+  transition: 0.5s;
+}
+body main .register-container .social-media .fa-google:hover {
+  background-color: #DB4437;
+  color: #fff;
+  transition: 0.5s;
+}
+body main .register-container .social-media .fa-google:before {
+  margin-left: -10px;
+}
+body main .register-container .social-desc {
+  color: #cfcfcf;
+  text-align: center;
+  font-weight: 500;
+}
+body main .register-container .sign-desc {
+  color: #cfcfcf;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 10px;
+}
+body main .register-container .sign-desc a {
+  color: #6E54B0;
+  text-decoration: none;
+}
+body main .register-container .requires-validation {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+body main .register-container .requires-validation input {
+  border-radius: 25px;
+  margin-bottom: 10px;
+  background-color: #F7F7F7;
+  font-weight: 400;
+  outline: none !important;
+}
+body main .register-container .requires-validation .form-control:focus {
+  box-shadow: none;
+}
+body main .register-container .requires-validation .form-button button {
+  width: 100%;
+  border-radius: 25px;
+  background-color: #6E54B0;
+  margin-top: 10px;
+  border: none;
+  font-weight: 600;
+}
+body main .register-container .requires-validation .form-button button:hover {
+  background-color: #B7AEEE;
+}
+body main .register-container img {
+  width: 100%;
+  margin-top: 100px;
+}
+@media (max-width: 767px) {
+  body main img {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
